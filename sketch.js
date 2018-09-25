@@ -35,8 +35,6 @@ function draw() {
 
 
   for (var i = pipes.length-1; i >= 0; i--) {
-
-
     pipes[i].display();
     pipes[i].update();
     if (pipes[i].hasCollided(birdy)) {
